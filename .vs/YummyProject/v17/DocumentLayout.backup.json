@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\MERT\\source\\repos\\YummyProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D057CF71-AAC4-4EDA-9354-A8D6E0433BEE}|YummyProject.csproj|c:\\users\\mert\\source\\repos\\yummyproject\\migrations\\202412121912019_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D057CF71-AAC4-4EDA-9354-A8D6E0433BEE}|YummyProject.csproj|solutionrelative:migrations\\202412121912019_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D057CF71-AAC4-4EDA-9354-A8D6E0433BEE}|YummyProject.csproj|c:\\users\\mert\\source\\repos\\yummyproject\\views\\adminlayout\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D057CF71-AAC4-4EDA-9354-A8D6E0433BEE}|YummyProject.csproj|solutionrelative:views\\adminlayout\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D057CF71-AAC4-4EDA-9354-A8D6E0433BEE}|YummyProject.csproj|c:\\users\\mert\\source\\repos\\yummyproject\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D057CF71-AAC4-4EDA-9354-A8D6E0433BEE}|YummyProject.csproj|solutionrelative:migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D057CF71-AAC4-4EDA-9354-A8D6E0433BEE}|YummyProject.csproj|c:\\users\\mert\\source\\repos\\yummyproject\\controllers\\feauturecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D057CF71-AAC4-4EDA-9354-A8D6E0433BEE}|YummyProject.csproj|solutionrelative:controllers\\feauturecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D057CF71-AAC4-4EDA-9354-A8D6E0433BEE}|YummyProject.csproj|c:\\users\\mert\\source\\repos\\yummyproject\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{D057CF71-AAC4-4EDA-9354-A8D6E0433BEE}|YummyProject.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{D057CF71-AAC4-4EDA-9354-A8D6E0433BEE}|YummyProject.csproj|c:\\users\\mert\\source\\repos\\yummyproject\\views\\feauture\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D057CF71-AAC4-4EDA-9354-A8D6E0433BEE}|YummyProject.csproj|solutionrelative:views\\feauture\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D057CF71-AAC4-4EDA-9354-A8D6E0433BEE}|YummyProject.csproj|c:\\users\\mert\\source\\repos\\yummyproject\\context\\yummycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D057CF71-AAC4-4EDA-9354-A8D6E0433BEE}|YummyProject.csproj|solutionrelative:context\\yummycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D057CF71-AAC4-4EDA-9354-A8D6E0433BEE}|YummyProject.csproj|c:\\users\\mert\\source\\repos\\yummyproject\\controllers\\adminlayoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D057CF71-AAC4-4EDA-9354-A8D6E0433BEE}|YummyProject.csproj|solutionrelative:controllers\\adminlayoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D057CF71-AAC4-4EDA-9354-A8D6E0433BEE}|YummyProject.csproj|c:\\users\\mert\\source\\repos\\yummyproject\\controllers\\uilayoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D057CF71-AAC4-4EDA-9354-A8D6E0433BEE}|YummyProject.csproj|solutionrelative:controllers\\uilayoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,8 +30,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 8,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\MERT\\source\\repos\\YummyProject\\Views\\Feauture\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Feauture\\Index.cshtml",
+              "ToolTip": "C:\\Users\\MERT\\source\\repos\\YummyProject\\Views\\Feauture\\Index.cshtml",
+              "RelativeToolTip": "Views\\Feauture\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-29T00:02:37.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FeautureController.cs",
+              "DocumentMoniker": "C:\\Users\\MERT\\source\\repos\\YummyProject\\Controllers\\FeautureController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FeautureController.cs",
+              "ToolTip": "C:\\Users\\MERT\\source\\repos\\YummyProject\\Controllers\\FeautureController.cs",
+              "RelativeToolTip": "Controllers\\FeautureController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwA4AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T23:44:51.516Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
@@ -55,53 +85,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "202412121912019_initial.cs",
-              "DocumentMoniker": "C:\\Users\\MERT\\source\\repos\\YummyProject\\Migrations\\202412121912019_initial.cs",
-              "RelativeDocumentMoniker": "Migrations\\202412121912019_initial.cs",
-              "ToolTip": "C:\\Users\\MERT\\source\\repos\\YummyProject\\Migrations\\202412121912019_initial.cs",
-              "RelativeToolTip": "Migrations\\202412121912019_initial.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAQwFcAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T19:12:15.55Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Configuration.cs",
-              "DocumentMoniker": "C:\\Users\\MERT\\source\\repos\\YummyProject\\Migrations\\Configuration.cs",
-              "RelativeDocumentMoniker": "Migrations\\Configuration.cs",
-              "ToolTip": "C:\\Users\\MERT\\source\\repos\\YummyProject\\Migrations\\Configuration.cs",
-              "RelativeToolTip": "Migrations\\Configuration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T19:03:42.773Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Web.config",
-              "DocumentMoniker": "C:\\Users\\MERT\\source\\repos\\YummyProject\\Web.config",
-              "RelativeDocumentMoniker": "Web.config",
-              "ToolTip": "C:\\Users\\MERT\\source\\repos\\YummyProject\\Web.config",
-              "RelativeToolTip": "Web.config",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAAAEQAAAB4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-12-12T19:02:00.068Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\MERT\\source\\repos\\YummyProject\\Views\\AdminLayout\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\AdminLayout\\Index.cshtml",
+              "ToolTip": "C:\\Users\\MERT\\source\\repos\\YummyProject\\Views\\AdminLayout\\Index.cshtml",
+              "RelativeToolTip": "Views\\AdminLayout\\Index.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAADYAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-28T23:58:26.836Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "YummyContext.cs",
-              "DocumentMoniker": "C:\\Users\\MERT\\source\\repos\\YummyProject\\Context\\YummyContext.cs",
-              "RelativeDocumentMoniker": "Context\\YummyContext.cs",
-              "ToolTip": "C:\\Users\\MERT\\source\\repos\\YummyProject\\Context\\YummyContext.cs",
-              "RelativeToolTip": "Context\\YummyContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAuAAAAAAAAAA==",
+              "Title": "AdminLayoutController.cs",
+              "DocumentMoniker": "C:\\Users\\MERT\\source\\repos\\YummyProject\\Controllers\\AdminLayoutController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminLayoutController.cs",
+              "ToolTip": "C:\\Users\\MERT\\source\\repos\\YummyProject\\Controllers\\AdminLayoutController.cs",
+              "RelativeToolTip": "Controllers\\AdminLayoutController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T18:31:38.659Z",
+              "WhenOpened": "2024-12-28T23:58:23.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UILayoutController.cs",
+              "DocumentMoniker": "C:\\Users\\MERT\\source\\repos\\YummyProject\\Controllers\\UILayoutController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UILayoutController.cs",
+              "ToolTip": "C:\\Users\\MERT\\source\\repos\\YummyProject\\Controllers\\UILayoutController.cs",
+              "RelativeToolTip": "Controllers\\UILayoutController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T23:49:37.048Z",
               "EditorCaption": ""
             }
           ]

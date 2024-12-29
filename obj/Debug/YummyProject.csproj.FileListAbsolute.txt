@@ -83,3 +83,7 @@ C:\Users\MERT\source\repos\YummyProject\obj\Debug\YummyProject.dll
 C:\Users\MERT\source\repos\YummyProject\obj\Debug\YummyProject.pdb
 C:\Users\MERT\source\repos\YummyProject\obj\Debug\YummyProject.Migrations.initial.resources
 C:\Users\MERT\source\repos\YummyProject\obj\Debug\YummyProject.csproj.GenerateResource.cache
+C:\Users\MERT\source\repos\YummyProject\obj\Debug\YummyProject.Migrations.migimgurl2addedtoabout.resources
+C:\Users\MERT\source\repos\YummyProject\obj\Debug\YummyProject.Migrations.testmig.resources
+C:\Users\MERT\source\repos\YummyProject\obj\Debug\YummyProject.Migrations.mig_admin_table.resources
+C:\Users\MERT\source\repos\YummyProject\obj\Debug\YummyProject.Migrations.mig_socialmedia_table_create.resources
