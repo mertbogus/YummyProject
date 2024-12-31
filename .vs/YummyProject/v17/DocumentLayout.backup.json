@@ -3,24 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\MERT\\source\\repos\\YummyProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D057CF71-AAC4-4EDA-9354-A8D6E0433BEE}|YummyProject.csproj|c:\\users\\mert\\source\\repos\\yummyproject\\views\\adminlayout\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D057CF71-AAC4-4EDA-9354-A8D6E0433BEE}|YummyProject.csproj|solutionrelative:views\\adminlayout\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D057CF71-AAC4-4EDA-9354-A8D6E0433BEE}|YummyProject.csproj|c:\\users\\mert\\source\\repos\\yummyproject\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D057CF71-AAC4-4EDA-9354-A8D6E0433BEE}|YummyProject.csproj|solutionrelative:views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D057CF71-AAC4-4EDA-9354-A8D6E0433BEE}|YummyProject.csproj|c:\\users\\mert\\source\\repos\\yummyproject\\controllers\\feauturecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D057CF71-AAC4-4EDA-9354-A8D6E0433BEE}|YummyProject.csproj|solutionrelative:controllers\\feauturecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D057CF71-AAC4-4EDA-9354-A8D6E0433BEE}|YummyProject.csproj|c:\\users\\mert\\source\\repos\\yummyproject\\views\\default\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D057CF71-AAC4-4EDA-9354-A8D6E0433BEE}|YummyProject.csproj|solutionrelative:views\\default\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D057CF71-AAC4-4EDA-9354-A8D6E0433BEE}|YummyProject.csproj|c:\\users\\mert\\source\\repos\\yummyproject\\views\\feauture\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D057CF71-AAC4-4EDA-9354-A8D6E0433BEE}|YummyProject.csproj|solutionrelative:views\\feauture\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D057CF71-AAC4-4EDA-9354-A8D6E0433BEE}|YummyProject.csproj|c:\\users\\mert\\source\\repos\\yummyproject\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D057CF71-AAC4-4EDA-9354-A8D6E0433BEE}|YummyProject.csproj|solutionrelative:controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D057CF71-AAC4-4EDA-9354-A8D6E0433BEE}|YummyProject.csproj|c:\\users\\mert\\source\\repos\\yummyproject\\controllers\\adminlayoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D057CF71-AAC4-4EDA-9354-A8D6E0433BEE}|YummyProject.csproj|solutionrelative:controllers\\adminlayoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D057CF71-AAC4-4EDA-9354-A8D6E0433BEE}|YummyProject.csproj|c:\\users\\mert\\source\\repos\\yummyproject\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D057CF71-AAC4-4EDA-9354-A8D6E0433BEE}|YummyProject.csproj|solutionrelative:views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D057CF71-AAC4-4EDA-9354-A8D6E0433BEE}|YummyProject.csproj|c:\\users\\mert\\source\\repos\\yummyproject\\controllers\\uilayoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D057CF71-AAC4-4EDA-9354-A8D6E0433BEE}|YummyProject.csproj|solutionrelative:controllers\\uilayoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D057CF71-AAC4-4EDA-9354-A8D6E0433BEE}|YummyProject.csproj|C:\\Users\\MERT\\source\\repos\\YummyProject\\controllers\\defaultcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D057CF71-AAC4-4EDA-9354-A8D6E0433BEE}|YummyProject.csproj|solutionrelative:controllers\\defaultcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D057CF71-AAC4-4EDA-9354-A8D6E0433BEE}|YummyProject.csproj|c:\\users\\mert\\source\\repos\\yummyproject\\views\\default\\defaultproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D057CF71-AAC4-4EDA-9354-A8D6E0433BEE}|YummyProject.csproj|solutionrelative:views\\default\\defaultproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D057CF71-AAC4-4EDA-9354-A8D6E0433BEE}|YummyProject.csproj|C:\\Users\\MERT\\source\\repos\\YummyProject\\views\\default\\defaultservice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D057CF71-AAC4-4EDA-9354-A8D6E0433BEE}|YummyProject.csproj|solutionrelative:views\\default\\defaultservice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,34 +38,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\MERT\\source\\repos\\YummyProject\\Views\\Feauture\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Feauture\\Index.cshtml",
-              "ToolTip": "C:\\Users\\MERT\\source\\repos\\YummyProject\\Views\\Feauture\\Index.cshtml",
-              "RelativeToolTip": "Views\\Feauture\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-29T00:02:37.101Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FeautureController.cs",
-              "DocumentMoniker": "C:\\Users\\MERT\\source\\repos\\YummyProject\\Controllers\\FeautureController.cs",
-              "RelativeDocumentMoniker": "Controllers\\FeautureController.cs",
-              "ToolTip": "C:\\Users\\MERT\\source\\repos\\YummyProject\\Controllers\\FeautureController.cs",
-              "RelativeToolTip": "Controllers\\FeautureController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAxwA4AAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-28T23:44:51.516Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
@@ -84,41 +66,93 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\MERT\\source\\repos\\YummyProject\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\MERT\\source\\repos\\YummyProject\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBcAAAB5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T00:45:54.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\MERT\\source\\repos\\YummyProject\\Views\\AdminLayout\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\AdminLayout\\Index.cshtml",
-              "ToolTip": "C:\\Users\\MERT\\source\\repos\\YummyProject\\Views\\AdminLayout\\Index.cshtml",
-              "RelativeToolTip": "Views\\AdminLayout\\Index.cshtml",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAADYAAAA7AAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\MERT\\source\\repos\\YummyProject\\Views\\Dashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Dashboard\\Index.cshtml",
+              "ToolTip": "C:\\Users\\MERT\\source\\repos\\YummyProject\\Views\\Dashboard\\Index.cshtml",
+              "RelativeToolTip": "Views\\Dashboard\\Index.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-28T23:58:26.836Z",
+              "WhenOpened": "2024-12-31T00:43:26.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\MERT\\source\\repos\\YummyProject\\Views\\Default\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Default\\Index.cshtml",
+              "ToolTip": "C:\\Users\\MERT\\source\\repos\\YummyProject\\Views\\Default\\Index.cshtml",
+              "RelativeToolTip": "Views\\Default\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-31T00:40:09.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DefaultProduct.cshtml",
+              "DocumentMoniker": "C:\\Users\\MERT\\source\\repos\\YummyProject\\Views\\Default\\DefaultProduct.cshtml",
+              "RelativeDocumentMoniker": "Views\\Default\\DefaultProduct.cshtml",
+              "ToolTip": "C:\\Users\\MERT\\source\\repos\\YummyProject\\Views\\Default\\DefaultProduct.cshtml",
+              "RelativeToolTip": "Views\\Default\\DefaultProduct.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAADIAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-31T00:37:38.396Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "AdminLayoutController.cs",
-              "DocumentMoniker": "C:\\Users\\MERT\\source\\repos\\YummyProject\\Controllers\\AdminLayoutController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AdminLayoutController.cs",
-              "ToolTip": "C:\\Users\\MERT\\source\\repos\\YummyProject\\Controllers\\AdminLayoutController.cs",
-              "RelativeToolTip": "Controllers\\AdminLayoutController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-28T23:58:23.924Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\MERT\\source\\repos\\YummyProject\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\Users\\MERT\\source\\repos\\YummyProject\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "Views\\Product\\Index.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-31T00:33:34.338Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "UILayoutController.cs",
-              "DocumentMoniker": "C:\\Users\\MERT\\source\\repos\\YummyProject\\Controllers\\UILayoutController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UILayoutController.cs",
-              "ToolTip": "C:\\Users\\MERT\\source\\repos\\YummyProject\\Controllers\\UILayoutController.cs",
-              "RelativeToolTip": "Controllers\\UILayoutController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAaAAAAAAAAAA==",
+              "Title": "DefaultController.cs",
+              "DocumentMoniker": "C:\\Users\\MERT\\source\\repos\\YummyProject\\Controllers\\DefaultController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DefaultController.cs",
+              "ToolTip": "C:\\Users\\MERT\\source\\repos\\YummyProject\\Controllers\\DefaultController.cs",
+              "RelativeToolTip": "Controllers\\DefaultController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwA4AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-28T23:49:37.048Z",
+              "WhenOpened": "2024-12-31T00:19:45.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DefaultService.cshtml",
+              "DocumentMoniker": "C:\\Users\\MERT\\source\\repos\\YummyProject\\Views\\Default\\DefaultService.cshtml",
+              "RelativeDocumentMoniker": "Views\\Default\\DefaultService.cshtml",
+              "ToolTip": "C:\\Users\\MERT\\source\\repos\\YummyProject\\Views\\Default\\DefaultService.cshtml",
+              "RelativeToolTip": "Views\\Default\\DefaultService.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABgAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-31T00:14:58.514Z",
               "EditorCaption": ""
             }
           ]

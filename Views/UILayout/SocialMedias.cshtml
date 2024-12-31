@@ -1,0 +1,14 @@
+﻿﻿@model List<YummyProject.Models.SocialMedia>
+
+<div class="col-lg-3 col-md-6 d-flex">
+    <i class="bi bi-search-heart icon"></i>
+    <div>
+        <h4>Sosyal Medya Hesaplarımız</h4>
+        <div class="social-links d-flex">
+            @foreach (var item in Model)
+            {
+                <a href="@item.Url" target="_blank" class="mr-3"><i class="@item.Icon"></i></a>
+            }
+        </div>
+    </div>
+</div>

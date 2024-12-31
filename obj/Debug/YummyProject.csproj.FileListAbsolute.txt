@@ -87,3 +87,5 @@ C:\Users\MERT\source\repos\YummyProject\obj\Debug\YummyProject.Migrations.migimg
 C:\Users\MERT\source\repos\YummyProject\obj\Debug\YummyProject.Migrations.testmig.resources
 C:\Users\MERT\source\repos\YummyProject\obj\Debug\YummyProject.Migrations.mig_admin_table.resources
 C:\Users\MERT\source\repos\YummyProject\obj\Debug\YummyProject.Migrations.mig_socialmedia_table_create.resources
+C:\Users\MERT\source\repos\YummyProject\obj\Debug\YummyProject.Migrations.chefsocial.resources
+C:\Users\MERT\source\repos\YummyProject\obj\Debug\YummyProject.Migrations.social_media_add.resources

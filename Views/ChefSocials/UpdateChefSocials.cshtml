@@ -1,0 +1,37 @@
+﻿﻿@model YummyProject.Models.ChefSocial
+@{
+    ViewBag.Title = "UpdateChefSocials";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<br />
+<h2>Şef Sosyal Medya Güncelleme</h2>
+<br />
+
+<form method="post" enctype="multipart/form-data" class="form-control">
+
+    @Html.HiddenFor(x => x.ChefSocialId)
+
+    <label><strong>Şef</strong></label>
+    @Html.TextBoxFor(x => x.Chef.Name, new { @class = "form-control" })
+    <br />
+
+    <label><strong>Bağlantı</strong></label>
+    @Html.TextBoxFor(x => x.SocialUrl, new { @class = "form-control" })
+    <br />
+    <label><strong>Mevcut İkon</strong></label>
+    @Html.TextBoxFor(x => x.Icon, new { @class = "form-control" })
+    <br />
+
+    <label><strong>Yeni İkon Ekle</strong></label>
+    <input name="ImageFile" type="file" class="form-control" />
+    <label><strong>Site İsmi</strong></label>
+    @Html.TextBoxFor(x => x.SocialMediaName, new { @class = "form-control" })
+    <br />
+
+    <div class="text-center">
+        <button class="btn btn-warning">Güncelle</button>
+    </div>
+    <br />
+
+</form>

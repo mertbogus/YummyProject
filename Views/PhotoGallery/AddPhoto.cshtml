@@ -1,0 +1,29 @@
+﻿
+@{
+    ViewBag.Title = "AddPhoto";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+@model YummyProject.Models.PhotoGallery
+
+@{
+    ViewBag.Title = "AddPhoto";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<br />
+<h2>Galeriye Fotoğraf Ekleme Sayfası</h2>
+<br />
+
+<form method="post" enctype="multipart/form-data" class="form-control">
+
+    <label><strong>Resim Yükleyiniz</strong></label>
+    <input type="file" name="ImageFile" class="form-control" />
+    <br />
+
+    <div class="text-center">
+        <button class="btn btn-warning">Ekle</button>
+    </div>
+    <br />
+
+</form>

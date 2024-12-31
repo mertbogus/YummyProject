@@ -1,0 +1,32 @@
+﻿﻿@model YummyProject.Models.ChefSocial
+@{
+    ViewBag.Title = "AddChefSocials";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<br />
+<h2>Şef Sosyal Medya Ekleme Sayfası</h2>
+<br />
+
+<form method="post" enctype="multipart/form-data" class="form-control">
+
+    <label><strong>Şef</strong></label>
+    @Html.DropDownListFor(x => x.ChefId, (List<SelectListItem>)ViewBag.şefler, new { @class = "form-control" })
+    <br />
+
+    <label><strong>URL</strong></label>
+    @Html.TextBoxFor(x => x.SocialUrl, new { @class = "form-control" })
+    <br />
+    <label><strong>İkon Görseli Yükleyiniz</strong></label>
+    <input type="file" name="ImageFile" class="form-control" />
+    <br />
+    <label><strong>Sosyal Medya İsmi</strong></label>
+    @Html.TextBoxFor(x => x.SocialMediaName, new { @class = "form-control" })
+    <br />
+
+    <div class="text-center">
+        <button class="btn btn-warning">Kaydet</button>
+    </div>
+    <br />
+
+</form>

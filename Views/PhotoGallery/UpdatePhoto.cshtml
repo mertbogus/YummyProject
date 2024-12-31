@@ -1,0 +1,30 @@
+﻿@model YummyProject.Models.PhotoGallery
+@{
+    ViewBag.Title = "UpdatePhoto";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<br />
+<h2>Galeri de Fotoğraf Güncelleme Sayfası</h2>
+<br />
+
+<form method="post" enctype="multipart/form-data" class="form-control">
+
+    @Html.HiddenFor(x => x.PhotoGalleryId)
+
+    <label><strong>Kullanılan Resim</strong></label>
+    <div class="text-center">
+        <img src="@Model.ImageUrl" style="width:400px;height:300px" />
+    </div>
+    <br />
+
+    <label><strong>Resim Yükleyiniz</strong></label>
+    <input type="file" name="ImageFile" class="form-control" />
+    <br />
+
+    <div class="text-center">
+        <button class="btn btn-warning">Güncelle</button>
+    </div>
+    <br />
+
+</form>

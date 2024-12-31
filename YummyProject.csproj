@@ -129,12 +129,25 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Context\YummyContext.cs" />
+    <Compile Include="Controllers\AboutController.cs" />
     <Compile Include="Controllers\AdminLayoutController.cs" />
+    <Compile Include="Controllers\BookingController.cs" />
+    <Compile Include="Controllers\CategoryController.cs" />
+    <Compile Include="Controllers\ChefController.cs" />
+    <Compile Include="Controllers\ChefSocialsController.cs" />
+    <Compile Include="Controllers\ContactInfoefault1Controller.cs" />
     <Compile Include="Controllers\DashboardController.cs" />
     <Compile Include="Controllers\DefaultController.cs" />
+    <Compile Include="Controllers\EventController.cs" />
     <Compile Include="Controllers\FeautureController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
+    <Compile Include="Controllers\MessageController.cs" />
+    <Compile Include="Controllers\PhotoGalleryController.cs" />
+    <Compile Include="Controllers\ProductController.cs" />
+    <Compile Include="Controllers\ServiceController.cs" />
+    <Compile Include="Controllers\SocialController.cs" />
+    <Compile Include="Controllers\TestimonialController.cs" />
     <Compile Include="Controllers\UILayoutController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -158,6 +171,14 @@
     <Compile Include="Migrations\202412282354382_mig_socialmedia_table_create.cs" />
     <Compile Include="Migrations\202412282354382_mig_socialmedia_table_create.Designer.cs">
       <DependentUpon>202412282354382_mig_socialmedia_table_create.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202412302211397_chefsocial.cs" />
+    <Compile Include="Migrations\202412302211397_chefsocial.Designer.cs">
+      <DependentUpon>202412302211397_chefsocial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202412302314314_social_media_add.cs" />
+    <Compile Include="Migrations\202412302314314_social_media_add.Designer.cs">
+      <DependentUpon>202412302314314_social_media_add.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\About.cs" />
@@ -197,6 +218,15 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Images\Chefs\chef1.jpg" />
+    <Content Include="Images\Chefs\chef22.jpg" />
+    <Content Include="Images\Chefs\chef3.jpg" />
+    <Content Include="Images\PhotoGallery\gallery-3.jpg" />
+    <Content Include="Images\PhotoGallery\gallery-4.jpg" />
+    <Content Include="Images\PhotoGallery\gallery-5.jpg" />
+    <Content Include="Images\PhotoGallery\gallery-6.jpg" />
+    <Content Include="Images\PhotoGallery\gallery-7.jpg" />
+    <Content Include="Images\PhotoGallery\gallery-8.jpg" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
@@ -486,9 +516,64 @@
     <Content Include="Templates\login-form-02\scss\bootstrap\_variables.scss" />
     <Content Include="Templates\login-form-02\scss\style.scss" />
     <Content Include="Views\Login\SignIn.cshtml" />
+    <Content Include="Views\About\Index.cshtml" />
+    <Content Include="Views\About\CreateAbout.cshtml" />
+    <Content Include="Views\About\UpdateAbout.cshtml" />
+    <Content Include="Views\Booking\Index.cshtml" />
+    <Content Include="Views\Chef\Index.cshtml" />
+    <Content Include="Views\UILayout\SocialMedias.cshtml" />
+    <Content Include="Views\Chef\AddChefs.cshtml" />
+    <Content Include="Views\Chef\UpdateChef.cshtml" />
+    <Content Include="Views\ChefSocials\Index.cshtml" />
+    <Content Include="Views\ChefSocials\UpdateChefSocials.cshtml" />
+    <Content Include="Views\ChefSocials\AddChefSocials.cshtml" />
+    <Content Include="Views\ContactInfoefault1\Index.cshtml" />
+    <Content Include="Views\ContactInfoefault1\AddInfo.cshtml" />
+    <Content Include="Views\ContactInfoefault1\UpdateInfo.cshtml" />
+    <Content Include="Views\Event\Index.cshtml" />
+    <Content Include="Views\Event\AddEvent.cshtml" />
+    <Content Include="Views\Event\UpdateEvent.cshtml" />
+    <Content Include="Views\Feauture\UpdateFeature.cshtml" />
+    <Content Include="Views\AdminLayout\AdminLayoutNavbar.cshtml" />
+    <Content Include="Views\AdminLayout\AdminLayoutSidebar.cshtml" />
+    <Content Include="Views\Message\Index.cshtml" />
+    <Content Include="Views\Message\UpdateMessage.cshtml" />
+    <Content Include="Views\PhotoGallery\AddPhoto.cshtml" />
+    <Content Include="Views\PhotoGallery\UpdatePhoto.cshtml" />
+    <Content Include="Views\PhotoGallery\Index.cshtml" />
+    <Content Include="Views\Product\Index.cshtml" />
+    <Content Include="Views\Product\AddProduct.cshtml" />
+    <Content Include="Views\Product\UpdateProduct.cshtml" />
+    <Content Include="Views\Category\Index.cshtml" />
+    <Content Include="Views\Category\UpdateCategory.cshtml" />
+    <Content Include="Views\Category\AddCategory.cshtml" />
+    <Content Include="Views\Social\Index.cshtml" />
+    <Content Include="Views\Social\UpdateSocial.cshtml" />
+    <Content Include="Views\Social\AddSocial.cshtml" />
+    <Content Include="Views\Service\Index.cshtml" />
+    <Content Include="Views\Service\UpdateService.cshtml" />
+    <Content Include="Views\Service\AddService.cshtml" />
+    <Content Include="Views\Testimonial\Index.cshtml" />
+    <Content Include="Views\Testimonial\UpdateTestimonial.cshtml" />
+    <Content Include="Views\Testimonial\AddTestimonial.cshtml" />
+    <Content Include="Views\Default\DefaultService.cshtml" />
+    <Content Include="Views\Default\DefaultTestimonial.cshtml" />
+    <Content Include="Views\Default\DefaultEvent.cshtml" />
+    <Content Include="Views\Default\DefaultChef.cshtml" />
+    <Content Include="Views\Default\DefaultBooking.cshtml" />
+    <Content Include="Views\Default\DefaultPhotoGallery.cshtml" />
+    <Content Include="Views\Default\DefaultMessage.cshtml" />
+    <Content Include="Views\Default\DefaultContact.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Images\Events\" />
+    <Folder Include="Images\Features\" />
+    <Folder Include="Images\Product\" />
+    <Folder Include="Images\SocialChef\" />
+    <Folder Include="Images\Testimonial\" />
+    <Folder Include="Views\ChefDefault1\" />
+    <Folder Include="Views\RestorantSocial\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.rtl.min.css.map" />
@@ -532,6 +617,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202412282354382_mig_socialmedia_table_create.resx">
       <DependentUpon>202412282354382_mig_socialmedia_table_create.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202412302211397_chefsocial.resx">
+      <DependentUpon>202412302211397_chefsocial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202412302314314_social_media_add.resx">
+      <DependentUpon>202412302314314_social_media_add.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

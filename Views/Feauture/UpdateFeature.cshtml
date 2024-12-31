@@ -1,0 +1,50 @@
+﻿@model YummyProject.Models.Feature
+@{
+    ViewBag.Title = "UpdateFeature";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<br />
+<h2>Öne ÇıKAN Alan Güncelleme Sayfası</h2>
+<br />
+
+<form method="post" enctype="multipart/form-data" class="form-control">
+
+    @Html.HiddenFor(x => x.FeatureId)
+
+    <label><strong>Var Olan Resim</strong></label>
+    <div class="text-center">
+        <img src="@Model.ImageUrl" style="width:250px;height:250px" />
+    </div>
+    <br />
+
+    <label><strong>Lütfen Resim Yükleyiniz</strong></label>
+    <input type="file" name="ImageFile" class="form-control" />
+    <br />
+
+    <label><strong>Başlık</strong></label>
+    @Html.TextBoxFor(x => x.Title, new { @class = "form-control" })
+    <div class="text-danger">
+        @Html.ValidationMessageFor(x => x.Title)
+    </div>
+    <br />
+
+    <label><strong>Açıklama</strong></label>
+    @Html.TextAreaFor(x => x.Description, 3, 1, new { @class = "form-control" })
+    <div class="text-danger">
+        @Html.ValidationMessageFor(x => x.Description)
+    </div>
+    <br />
+
+    <label><strong>Video Url</strong></label>
+    @Html.TextBoxFor(x => x.VideoUrl, new { @class = "form-control" })
+    <div class="text-danger">
+        @Html.ValidationMessageFor(x => x.VideoUrl)
+    </div>
+    <br />
+
+    <div class="text-center">
+        <button class="btn btn-primary">Güncelle</button>
+    </div>
+</form>
+

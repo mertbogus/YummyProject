@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Web;
 
@@ -16,5 +17,8 @@ namespace YummyProject.Models
         public int CategoryId { get; set; }
 
         public virtual Category Category { get; set; } //nagivation property category'e ulaşabiliyoruz.
+
+        [NotMapped]
+        public HttpPostedFileBase ImageFile { get; set; }
     }
 }

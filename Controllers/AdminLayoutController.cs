@@ -13,5 +13,15 @@ namespace YummyProject.Controllers
         {
             return View();
         }
+
+        public PartialViewResult AdminLayoutNavbar()
+        {
+            return PartialView();
+        }
+
+        public PartialViewResult AdminLayoutSidebar()
+        {
+            return PartialView();
+        }
     }
 }

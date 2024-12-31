@@ -1,0 +1,40 @@
+﻿﻿@model YummyProject.Models.Event
+@{
+    ViewBag.Title = "UpdateEvent";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<br />
+<h2>Etkinlik Güncelleme Sayfası</h2>
+<br />
+
+<form method="post" enctype="multipart/form-data" class="form-control">
+
+    @Html.HiddenFor(x => x.EventId)
+
+    <label><strong>Kullanılan Resim</strong></label>
+    <div class="text-center">
+        <img src="@Model.ImageUrl" style="width:400px;height:300px" />
+    </div>
+    <br />
+
+    <label><strong>Yeni Resim Seçiniz</strong></label>
+    <input type="file" name="ImageFile" class="form-control" />
+    <br />
+
+    <label><strong>İsim</strong></label>
+    @Html.TextBoxFor(x => x.Title, new { @class = "form-control" })
+    <br />
+    <label><strong>Açıklama</strong></label>
+    @Html.TextAreaFor(x => x.Description, 3, 1, new { @class = "form-control" })
+    <br />
+    <label><strong>Fiyat</strong></label>
+    @Html.TextBoxFor(x => x.Price, new { @class = "form-control" })
+    <br />
+
+    <div class="text-center">
+        <button class="btn btn-warning">Güncelle</button>
+    </div>
+    <br />
+
+</form>

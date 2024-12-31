@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Web;
 
@@ -13,6 +14,7 @@ namespace YummyProject.Models
         public string Title { get; set; }
         public string Comments { get; set; }
         public int Rating { get; set; }
-
+        [NotMapped]
+        public HttpPostedFileBase ImageFile { get; set; }
     }
 }

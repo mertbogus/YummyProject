@@ -1,0 +1,72 @@
+﻿﻿@model YummyProject.Models.Chef
+@{
+    ViewBag.Title = "UpdateChef";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<br />
+<h2>Chef Bilgilerini Güncelleme Sayfası</h2>
+<br />
+
+<form method="post" enctype="multipart/form-data" class="form-control">
+
+    @Html.HiddenFor(x => x.ChefId)
+
+    <div class="text-center">
+        <label><strong>Kullanılan Resim</strong></label>
+        <br />
+        <img src="@Model.ImageUrl" style="width:500px ; height:300px " />
+    </div>
+    <br />
+
+    <label><strong>Yeni Şef Resmi Yükle</strong></label>
+    <input type="file" name="ImageFile" class="form-control" />
+
+    <label><strong>Ad Soyad</strong></label>
+    @Html.TextBoxFor(x => x.Name, new { @class = "form-control" })
+    <br />
+    <label><strong>Ünvan</strong></label>
+    @Html.TextBoxFor(x => x.Title, new { @class = "form-control" })
+    <br />
+    <label><strong>Açıklama</strong></label>
+    @Html.TextBoxFor(x => x.Description, new { @class = "form-control" })
+    <br />
+
+    @if (Model.ChefSocials != null && Model.ChefSocials.Any())
+    {
+        foreach (var item in Model.ChefSocials)
+        {
+            <label><strong>Sosyal Medya - @item.SocialMediaName </strong></label>
+            <br />
+            <input name="Url" value="@item.SocialUrl" class="form-control" />
+            <br />
+
+            <label><strong>Sosyal Medya - Ikon </strong></label>
+            <br />
+            <input name="Icon" value="@item.Icon" class="form-control" />
+            <br />
+        }
+    }
+    else
+    {
+        <label><strong>Sosyal Medya İsmi </strong></label>
+        <input name="SocialMediaName" class="form-control" />
+        <br />
+
+        <label><strong>Sosyal Medya Link </strong></label>
+        <input name="Url" class="form-control" />
+        <br />
+
+        <label><strong>Sosyal Medya Ikon </strong></label>
+        <input name="Icon" class="form-control" />
+        <br />
+    }
+
+    <div class="text-center">
+        <button class="btn btn-warning">Güncelle</button>
+    </div>
+    <br />
+
+</form>
+<br />
+
